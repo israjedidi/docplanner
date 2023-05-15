@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  
+}
+header nav img{
+    width: 250px;
+    height: 35px;
+}
+header nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(13, 131, 131);
+}
+
+h1{
+    text-align: center;
+    color: rgb(14, 153, 137);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: rgb(41, 184, 184);
+}
+main{
+    width: 70%;
+    
+    margin: 100px auto;
+}
+main img{
+    margin: 0 auto;
+    display: block;
+}
+
+.paragh{
+    display: flex;
+    justify-content: space-between;
+}
+.cartes{ background-color: rgb(185, 213, 238);
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.cartes .carte{
+    width: 180px;
+    color: blanchedalmond;
+    padding: 2em 2em;
+    border-radius:8px ;
+}
+.carte >*{
+    color: blanchedalmond;
+
+}
+.carte select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 60px;
+}
+.carte h1{
+    font-weight: 300;
+    font-size: 1.4rem;
+}
